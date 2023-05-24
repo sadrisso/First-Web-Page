@@ -1,0 +1,137 @@
+/* Column Size For Desktop */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Navbar Design Starts From Here */
+
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+    font-size:2rem;
+}
+.nav-menu{
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding:20;
+    margin:20px 0px;
+    background-color: transparent;
+    font-size:1rem;
+}
+
+/* Navbar Ends Here */
+
+.profile{
+    padding:80px;
+}
+.t-img{
+    width:90px;
+    height:90px;
+    transition:width .5s,height .5s ;
+}
+.t-img:hover{
+    width:120px;
+    height:120px;
+}
+.b-img{
+    width:90px;
+    height:90px;
+    transition:width .5s,height .5s ;
+}
+.b-img:hover{
+    width:120px;
+    height:120px;
+}
+.profile-desc p{
+    width:40%;
+    color:grey;
+}
+.profile-desc h2{
+    font-size:2.5rem;
+}
+
+/* Aboutme Starts From Here */
+
+.aboutme-img img{
+    width:300px;
+    height:330px;
+    border:white solid 3px;
+    border-radius:50%;
+    margin-top:90px;
+}
+.aboutme-desc{
+    font-size:1rem;
+    text-align: left;
+    padding:50px;
+}
+.plain-hr{
+    width:100%;
+    text-align:left;
+    border:splid 2px;
+    border-bottom:none;
+}
+.aboutme-img img:hover{
+    opacity:.5;
+}
+.aboutme-desc p{
+    text-align:left;
+    width:80%;
+}
+.cv-button{
+    padding:15px;
+    background-color: white;
+    color:black;
+    border-radius:10px;
+    cursor:pointer;
+    margin-left:220px;
+    margin-bottom:50px;
+}
+
+/* Aboutme Ends Here */
+
+/* Achivement Section Starts From Here */
+
+.contact-links{
+    position:relative;
+}
+.media-buttons{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    margin-top:250px;
+}
+.media-buttons .m-btn{
+    border:none;
+    border-radius:40px;
+    font-size:40px;
+    padding:10px;
+    margin:10px;
+    width:70px;
+    height:70px;
+}
+.footer-menu a{
+    display:inline;
+    margin:20px;
+    font-size:1rem;
+}
+.footer-menu{
+    margin-top:20px;
+}
+.footer-desc{
+    margin-top:-20;
+}
